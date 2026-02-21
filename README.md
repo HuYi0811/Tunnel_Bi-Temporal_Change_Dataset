@@ -4,14 +4,14 @@ Public dataset for bi-temporal tunnel crack change detection, including 22 real 
 ## Directory Structure
 
 - real_crack_changes/
-  - images_t1/: images at time 1
-  - images_t2/: images at time 2
-  - labels/: pixel-level change masks
+  - A/: images at time 1
+  - B/: images at time 2
+  - label/: pixel-level change masks
 
 - synthetic_crack_changes/
-  - images_t1/
-  - images_t2/
-  - labels/
+  - A/ images at time 1 which 合成了裂缝
+  - B/ images at time 2
+  - label/pixel-level change masks
 
 ## Annotation Format
 
